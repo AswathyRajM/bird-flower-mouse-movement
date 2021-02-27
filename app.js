@@ -1,7 +1,7 @@
 for (let i = 0; i < 30; i++) {
   var x = document.createElement("IMG");
   x.setAttribute("src", "img/hummingbird.png");
-  x.setAttribute("alt", "The Pulpit Rock");
+  x.setAttribute("alt", "hummingbird");
   x.setAttribute("class", "bird");
   document.body.appendChild(x);
   console.log(x);
