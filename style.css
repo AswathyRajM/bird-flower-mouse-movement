@@ -10,6 +10,10 @@ body {
     align-items: center;
     min-height: 100vh;
     flex-direction: column;
-    cursor: url('img/hibiscus.png'), pointer;
+    cursor: url('img/hibiscus.png'), auto;
+    overflow: hidden;
+}
 
+.bird {
+    position: absolute;
 }
