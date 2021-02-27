@@ -1,3 +1,12 @@
+for (let i = 0; i < 30; i++) {
+  var x = document.createElement("IMG");
+  x.setAttribute("src", "img/hummingbird.png");
+  x.setAttribute("alt", "The Pulpit Rock");
+  x.setAttribute("class", "bird");
+  document.body.appendChild(x);
+  console.log(x);
+}
+
 // Random bird image size function
 function randomSize() {
   min = Math.ceil(40);
